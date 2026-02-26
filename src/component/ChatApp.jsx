@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { io } from "socket.io-client";
 
-const socket = io("https://dashboard.render.com/web/srv-d6fvt8hr0fns73ejqtq0");
+const socket = io("https://chat-backend-xrcc.onrender.com");
 
 function ChatApp() {
   const [messageInput, setMessageInput] = useState("");
